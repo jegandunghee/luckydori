@@ -1,0 +1,52 @@
+[
+  {
+    "id": "stationery", 
+    "image": "circle-1.png",
+    "title": "파우치"
+  },
+  {
+    "id": "notebook",
+    "image": "circle-2.png",
+    "title": "포켓노트"
+  },
+  {
+    "id": "tape",
+    "image": "circle-3.png",
+    "title": "와시테이프"
+  },
+  {
+    "id": "sticker",
+    "image": "circle-4.png",
+    "title": "스티커팩"
+  },
+  {
+    "id": "stationery",
+    "image": "circle-5.png",
+    "title": "문구정리"
+  },
+  {
+    "id": "stationery",
+    "image": "circle-6.png",
+    "title": "연필꽂이"
+  },
+  {
+    "id": "stationery",
+    "image": "circle-7.png",
+    "title": "에코백"
+  },
+  {
+    "id": "stationery",
+    "image": "circle-8.png",
+    "title": "컬러펜"
+  },
+  {
+    "id": "notebook", 
+    "image": "circle-9.png",
+    "title": "노트북"
+  },
+  {
+    "id": "notebook",
+    "image": "circle-10.png",
+    "title": "자물쇠노트"
+  }
+]

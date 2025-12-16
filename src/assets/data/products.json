@@ -1,0 +1,146 @@
+[
+  {
+    "id": "item001",
+    "image": "new-item01-1.jpg",
+    "title": "스팽글 벨벳 커버 노트",
+    "price": 6900,
+    "isNew": true,
+    "isBest": true,
+    "category": "notebook"
+  },
+  {
+    "id": "item002",
+    "image": "new-item02-1.jpg",
+    "title": "무드쉐입 라인 템플릿 세트",
+    "price": 4500,
+    "isNew": true,
+    "isBest": true,
+    "category": "stationery"
+  },
+  {
+    "id": "item003",
+    "image": "new-item03-1.jpg",
+    "title": "시트러스 테마 포스트잇 & 엽서팩",
+    "price": 5500,
+    "isNew": true,
+    "isBest": true,
+    "category": "stationery"
+  },
+  {
+    "id": "item004",
+    "image": "new-item04-1.jpg",
+    "title": "클래식 브라운 리필 다이어리 커버",
+    "price": 7900,
+    "isNew": true,
+    "isBest": true,
+    "category": "notebook"
+  },
+  {
+    "id": "item005",
+    "image": "new-item05-1.jpg",
+    "title": "힐링 가든 투명 스티커 컬렉션",
+    "price": 3800,
+    "isNew": true,
+    "isBest": true,
+    "category": "sticker"
+  },
+  {
+    "id": "item006",
+    "image": "new-item06-1.jpg",
+    "title": "플로럴 핑크 포켓노트 세트",
+    "price": 6300,
+    "isNew": true,
+    "isBest": true,
+    "category": "notebook"
+  },
+  {
+    "id": "item007",
+    "image": "new-item07-1.jpg",
+    "title": "네이비 테이프 + 다꾸박스 세트",
+    "price": 9800,
+    "isNew": true,
+    "isBest": true,
+    "category": "tape"
+  },
+  {
+    "id": "item008",
+    "image": "new-item08-1.jpg",
+    "title": "빈티지 감성 만년 플래너 세트",
+    "price": 8200,
+    "isNew": true,
+    "isBest": true,
+    "category": "notebook"
+  },
+  {
+    "id": "item009",
+    "image": "new-item01-2.jpg",
+    "title": "스팽글 벨벳 커버 노트 (Deep Blue)",
+    "price": 6900,
+    "isNew": false,
+    "isBest": true,
+    "category": "notebook"
+  },
+  {
+    "id": "item010",
+    "image": "new-item02-2.jpg",
+    "title": "무드쉐입 라인 템플릿 (Basic)",
+    "price": 4500,
+    "isNew": false,
+    "isBest": true,
+    "category": "stationery"
+  },
+  {
+    "id": "item011",
+    "image": "new-item03-2.jpg",
+    "title": "시트러스 포스트잇 리필",
+    "price": 5500,
+    "isNew": false,
+    "isBest": true,
+    "category": "stationery"
+  },
+  {
+    "id": "item012",
+    "image": "new-item04-2.jpg",
+    "title": "클래식 브라운 다이어리 (속지 포함)",
+    "price": 7900,
+    "isNew": false,
+    "isBest": true,
+    "category": "notebook"
+  },
+  {
+    "id": "item013",
+    "image": "new-item05-2.jpg",
+    "title": "힐링 가든 스티커 (Ver.2)",
+    "price": 3800,
+    "isNew": false,
+    "isBest": true,
+    "category": "sticker"
+  },
+  {
+    "id": "item014",
+    "image": "new-item06-2.jpg",
+    "title": "플로럴 핑크 노트 (Hard Cover)",
+    "price": 6300,
+    "isNew": false,
+    "isBest": true,
+    "category": "notebook"
+  },
+  {
+    "id": "item015",
+    "image": "new-item07-2.jpg",
+    "title": "네이비 마스킹 테이프 단품",
+    "price": 3500,
+    "isNew": false,
+    "isBest": true,
+    "category": "tape"
+  },
+  {
+    "id": "item016",
+    "image": "new-item08-2.jpg",
+    "title": "빈티지 플래너 (Black Edition)",
+    "price": 8200,
+    "isNew": false,
+    "isBest": true,
+    "category": "notebook"
+  }
+]
