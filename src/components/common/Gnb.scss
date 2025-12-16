@@ -1,0 +1,71 @@
+@use '../../assets/scss/mixin'as *;
+
+nav{
+  position: relative;
+  padding: 1rem 0;
+
+  div.mobile-togle{
+    cursor: pointer;
+    @include flex-layout(row, flex-start);
+    color: var(--color-dark);
+    @include desktop{
+      display: none;
+    }
+
+    button{
+      background:none;
+      border: none;
+      outline: none;
+      font-size: 2rem;
+      line-height: 0;
+      color: var(--color-dark);
+      &:hover{
+        color: var(--color-primary);
+      }
+    }
+    span{
+      font-size: 1.1rem;
+    }
+  }
+
+  div.menu-wrap{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    @include desktop{
+      @include flex-layout(row, space-between, center, 0);
+    }
+  }
+
+  ul{
+    padding: 1rem ;
+    background-color: var(--color-gray);
+    @include desktop{
+      @include flex-layout();
+    }
+    li{
+      padding: 0.5rem 0;
+      cursor: pointer;
+    }
+  }
+
+  ul.menu-top{
+    font-size: 1.1rem;
+    li{
+      border-bottom: 1px solid var(--color-dark);
+      &:hover{
+        color: var(--color-primary);
+      }
+    }
+  }
+
+  ul.menu-bottom{
+    color: var(--color-dark);
+    li{
+      &:hover{
+        color: var(--color-sub1);
+        text-decoration: underline;
+      }
+    }
+  }
+}

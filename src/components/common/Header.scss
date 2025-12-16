@@ -1,0 +1,23 @@
+@use '../../assets/scss/mixin' as mix;
+@use '../../assets/scss/variables' as *;
+
+
+header{
+  background-color: var(--color-hd);
+  padding: 2rem;
+  .header-top{
+    @include mix.flex-layout(row, space-between);
+    img{
+      height: 3rem;
+      cursor: pointer;
+    }
+    .cart-icon{
+      cursor: pointer;
+      font-size: 2rem;
+      color: var(--color-primary);
+      &:hover{
+        filter: brightness(0.8);
+      }
+    }
+  }
+}

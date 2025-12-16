@@ -3,6 +3,7 @@ import Layout from "./layout/Layout"
 import MainPage from "./page/MainPage"
 import CartPage from "./page/CartPage"
 import CategoryPage from "./page/CategoryPage"
+import './assets/scss/global.scss'
 
 const App = () => {
   return (
