@@ -10,8 +10,8 @@ $desktop : 1024px;
 //버튼 처리
 @mixin btn-style($bg-color : #fff){
   background-color: $bg-color;
-  padding: 0.5rem 1rem;
-  border-radius: 1.5rem;
+  padding:0.5rem 1rem;
+  border-radius: 1rem;
   border: none;
   outline: none;
   color: #fff;

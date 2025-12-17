@@ -15,3 +15,7 @@ html { font-size: 16px;}
 body{
   @include font-body;
 }
+
+.main-page{
+  background-color: var(--color-bg);
+}

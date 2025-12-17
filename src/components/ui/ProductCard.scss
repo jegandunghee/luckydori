@@ -1,0 +1,49 @@
+@use '../../assets/scss/mixin' as *;
+@use '../../assets/scss/variables' as *;
+
+.product-card{
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s;
+  .img-box{
+    border-radius: 2rem;
+    overflow: hidden;
+    img{
+      display: block;
+      width: 100%;
+      transition: 0.5s;
+    }
+  }
+  &:hover{
+    img{
+      transform: scale(1.1);
+    }
+    p.add-cart{
+      top: 50%;
+      opacity: 1;
+    }
+  }
+
+  .txt-box{
+    h3{
+      margin: 0.5rem;
+      word-break: keep-all;
+      //무조건 2줄 확보 
+      line-height: 1.5rem;
+      height: 3rem;
+    }
+  }
+
+  .add-cart{
+    width: 70%;
+    position: absolute;
+    top: 60%;
+    left : 50%;
+    transform: translateX(-50%);
+    // display: inline-block;
+    @include btn-style(var(--color-sub1));
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+}
