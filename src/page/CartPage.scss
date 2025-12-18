@@ -1,0 +1,43 @@
+@use "../assets/scss/mixin" as *;
+.cart-page{
+  margin: 2rem 0;
+  h2{text-align: center;}
+  p{text-align: center;}  
+}
+.cart-wrap{
+  @include flex-layout(column);
+  @include desktop{
+    flex-direction: row;
+  }
+  .cart-list{
+    padding: 1rem 2rem;
+    li{
+      @include flex-layout(row,space-between);
+      .img-box{
+        width: 20%;
+        img{width: 100%;}
+      }
+      .price-wrap{
+        flex: 1;
+        @include flex-layout(row,flex-start);
+        span{
+          display: inline-block;
+          width: 30px;
+          text-align: center;
+        }
+        button{ 
+          width: 30px;
+        }
+      }
+      > button{
+        width: 100px;
+      }
+    }
+  }
+  .cart-summary{
+    .summary-wrap{}
+    .summary-total{}
+  }
+}
+
+

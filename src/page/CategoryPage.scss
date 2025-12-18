@@ -1,0 +1,17 @@
+@use '../assets/scss/mixin' as *;
+@use '../assets/scss/variables' as *;
+
+
+.category-page{
+  width: 90%;
+  margin: 3rem auto;
+  h2,p{
+    text-align: center;
+  }
+
+  .product-list{
+    margin: 2rem;
+    @include flex-layout(row, center, flex-start);
+    flex-wrap: wrap;
+  }
+}
